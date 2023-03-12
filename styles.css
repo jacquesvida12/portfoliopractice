@@ -1,3 +1,12 @@
+body{
+  margin: 0;
+}
+.navbar {
+  text-align: center;
+  background: lightblue;
+  height: 100%;
+  width: 100%;
+}
 /* === removing default button style ===*/
 .button {
     margin: 0;
@@ -40,20 +49,15 @@
     width: 100%;
     filter: drop-shadow(0 0 23px var(--animation-color))
   }
-  .navbar {
-    text-align: center;
-    background-color: lightblue;
-    height: 100%;
-    width: 100%;
-  }
-
   .flip {
     box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
-    padding: 1em;
+    padding: 50px;
     width: 190px;
     height: 254px;
     transform-style: preserve-3d;
     transition: 3s ease;
+    margin-top: 250px;
+    margin-right: 25px;
   }
   
   .flip:hover {
